@@ -12,7 +12,7 @@ module.exports = {
 
   // Output settings
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "public"),
     filename: "bundle.js",
     environment: {
       arrowFunction: false, // Disable arrow functions for older browser support
